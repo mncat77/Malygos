@@ -1,0 +1,4 @@
+Malygos
+=====
+
+Hearthstone magic values
