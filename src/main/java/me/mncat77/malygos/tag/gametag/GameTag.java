@@ -222,8 +222,12 @@ public class GameTag {
         byId.put(id, this);
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public Object getValue(int value) {
