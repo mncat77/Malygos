@@ -25,6 +25,10 @@ public enum TagGoldRewardState {
         this.id = id;
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     static {
         for(TagGoldRewardState tagCardSet : TagGoldRewardState.values()) {
             byId.put(tagCardSet.id, tagCardSet);

@@ -22,6 +22,10 @@ public enum TagState {
         this.id = id;
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     static {
         for(TagState tagCardSet : TagState.values()) {
             byId.put(tagCardSet.id, tagCardSet);

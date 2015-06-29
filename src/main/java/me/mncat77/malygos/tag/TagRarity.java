@@ -24,6 +24,10 @@ public enum TagRarity {
         this.id = id;
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     static {
         for(TagRarity tagCardSet : TagRarity.values()) {
             byId.put(tagCardSet.id, tagCardSet);

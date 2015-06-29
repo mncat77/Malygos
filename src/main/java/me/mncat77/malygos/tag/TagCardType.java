@@ -29,6 +29,10 @@ public enum TagCardType {
         this.id = id;
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     static {
         for(TagCardType tagCardSet : TagCardType.values()) {
             byId.put(tagCardSet.id, tagCardSet);

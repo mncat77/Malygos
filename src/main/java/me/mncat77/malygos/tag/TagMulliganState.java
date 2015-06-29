@@ -23,6 +23,10 @@ public enum TagMulliganState {
         this.id = id;
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     static {
         for(TagMulliganState tagCardSet : TagMulliganState.values()) {
             byId.put(tagCardSet.id, tagCardSet);

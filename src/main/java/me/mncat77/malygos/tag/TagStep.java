@@ -36,6 +36,10 @@ public enum TagStep {
         this.id = id;
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     static {
         for(TagStep tagCardSet : TagStep.values()) {
             byId.put(tagCardSet.id, tagCardSet);

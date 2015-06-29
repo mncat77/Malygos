@@ -26,6 +26,10 @@ public enum TagZone {
         this.id = id;
     }
 
+    public int getId() {
+        return id;
+    }
+
     static {
         for(TagZone tagCardSet : TagZone.values()) {
             byId.put(tagCardSet.id, tagCardSet);
